@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remove Employee</title>
+    <link rel="stylesheet" href="dashboard.css"> <style>
+        .remove-container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .employee-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            margin-bottom: 8px;
+            border: 1px solid #eee;
+            border-radius: 4px;
+            background-color: #f9f9f9;
+        }
+        .employee-item button {
+            background-color: #E74C3C; /* Red for remove button */
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .employee-item button:hover {
+            background-color: #C0392B;
+        }
+        .remove-container button.go-back {
+            background-color: #5DADE2; /* Blue for go back */
+            margin-top: 20px;
+            width: auto;
+            padding: 10px 20px;
+        }
+        .remove-container button.go-back:hover {
+            background-color: #2874A6;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="remove-container">
+        <h2>Remove Employee</h2>
+        <div id="employeeListForRemoval">
+            </div>
+        <button class="go-back" onclick="goBack()">Go Back</button>
+    </div>
+
+    <script src="remove-employee.js"></script>
+
+</body>
+</html>

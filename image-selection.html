@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Select Image</title>
+    <link rel="stylesheet" href="IS.css">
+</head>
+<body>
+
+    <h2>Choose an Image/Icon</h2>
+    <div class="image-list">
+        <img src="1.jpg" alt="Male Icon" onclick="selectImage('1.jpg')">
+        <img src="2.jpg" alt="Female Icon" onclick="selectImage('2.jpg')">
+
+    </div>
+
+    <script>
+        function selectImage(imagePath) {
+            window.opener.document.getElementById("employeeImage").value = imagePath; // Changed ID
+            window.close();
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+[
+{
+      "name": "Anas Ahmed",
+      "id": "001",
+      "salary": "50000",
+      "gender": "male",
+      "department": "Director",
+      "image": "https://placehold.co/80x80/ADD8E6/FFFFFF?text=M"
+    },
+    {
+      "name": "Shaheer Ahmed",
+      "id": "002",
+      "salary": "70000",
+      "gender": "male",
+      "department": "CEO",
+      "image": "https://placehold.co/80x80/FFC0CB/FFFFFF?text=F"
+    }
+  ]

@@ -1,0 +1,32 @@
+.image-list {
+    display: flex;
+    flex-wrap: wrap; /* Allow images to wrap to the next line */
+    gap: 10px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.image-list img {
+    width: 80px; /* Slightly smaller for more icons */
+    height: auto;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: 0.3s;
+    border-radius: 5px; /* Slightly rounded corners */
+}
+
+.image-list img:hover {
+    border: 2px solid #5DADE2; /* Blue border on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F8F9F9; /* Light background for image selector */
+}

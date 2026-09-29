@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management System</title>
+    <link rel="stylesheet" href="welcome.css">
+    
+    <style>
+        /* Specific styles for the main dashboard buttons */
+        .main-menu {
+            display: flex;
+            flex-direction: column; /* Stack buttons vertically */
+            gap: 15px; /* Space between buttons */
+            margin-top: 30px;
+            align-self: center;
+        }
+
+        .main-menu button {
+            background-color: #062b44; /* Blue buttons */
+            color: rgb(245, 245, 245);
+            padding: 15px 25px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1.1em;
+            transition: background-color 0.3s ease;
+            width: 250px; /* Fixed width for buttons */
+        }
+
+        .main-menu button:hover {
+            background-color: #2874A6; /* Darker blue on hover */
+        }
+
+        .welcome-container {
+            padding: 40px; /* Adjust padding for better look */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="welcome-container">
+        <h1>Welcome to Employee Management System</h1>
+        <div class="main-menu">
+            <button onclick="location.href='add-employee.html'">Add New Employee</button>
+            <button onclick="location.href='remove-employee.html'">Remove Employee</button>
+            <button onclick="location.href='dashboard.html'">View Employee Dashboard</button>
+            <button onclick="location.href='logout.html'">Logout</button>
+        </div>
+    </div>
+
+</body>
+</html>

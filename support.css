@@ -1,0 +1,39 @@
+/* Placeholder for support page styling */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #A2D9CE, #D4EFDF); /* Light green/blue gradient */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+}
+
+.support-container {
+    max-width: 600px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.support-container h1 {
+    color: #0a3b5c;
+    margin-bottom: 20px;
+}
+
+.support-container p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.support-container a {
+    color: #2874A6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.support-container a:hover {
+    text-decoration: underline;
+}

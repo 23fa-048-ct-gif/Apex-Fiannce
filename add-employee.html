@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Employee</title>
+    <link rel="stylesheet" href="add-employee.css">
+</head>
+<body>
+
+    <div class="form-container">
+        <h2>Add New Employee</h2>
+        <form id="addEmployeeForm">
+            <label for="employeeName">Employee Name:</label>
+            <input type="text" id="employeeName" required>
+
+            <label for="employeeId">Employee ID:</label>
+            <input type="text" id="employeeId" required>
+
+            <label for="salary">Salary:</label>
+            <input type="number" id="salary" required>
+
+            <label for="gender">Gender:</label>
+            <select id="gender" required>
+                <option value="">Select Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="department">Position/Rank:</label>
+            <input type="text" id="department" required>
+
+            <label for="employeeImage">Employee Photo/Icon:</label>
+            <input type="text" id="employeeImage" placeholder="Click to select an image" readonly>
+            <button type="button" onclick="openImageSelector()">Select Image</button>
+
+            <button type="button" onclick="goBack()">Go Back</button>
+            <button type="submit">Add Employee</button>
+        </form>
+    </div>
+
+    <script src="add-employee.js"></script>
+
+</body>
+</html>

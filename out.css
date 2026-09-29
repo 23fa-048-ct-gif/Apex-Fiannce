@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #A2D9CE, #D4EFDF); /* Light green/blue gradient */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logout-container {
+    text-align: center;
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logout-container h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.logout-container p {
+    color: #666;
+}

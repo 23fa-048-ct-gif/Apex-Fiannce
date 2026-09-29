@@ -1,0 +1,40 @@
+.form-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 6px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+input, select, button {
+    width: 90%;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+button {
+    background-color: #5DADE2; /* A shade of blue */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2874A6; /* Darker blue on hover */
+}
+/* Full-page styling */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1654c7, #D4EFDF); /* Light green/blue gradient */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Form container styling */
+.form-container {
+    background: white
+}
